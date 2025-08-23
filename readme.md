@@ -114,7 +114,6 @@ npm install
 
 The application exposes the following REST API endpoints:
 
-```
 | Method | Endpoint                 | Description                                    |
 | :----- | :----------------------- | :--------------------------------------------- |
 | `POST` | `/api/users/register`    | Registers a new user (used by the "Add" form). |
@@ -122,7 +121,7 @@ The application exposes the following REST API endpoints:
 | `GET`  | `/api/users/:id`         | Retrieves a single user by their ID.           |
 | `PUT`  | `/api/users/:id`         | Updates the details of an existing user.       |
 | `DELETE`| `/api/users/:id`         | Deletes a user by their ID.                    |
-```
+
 
 ---
 
