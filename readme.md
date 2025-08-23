@@ -4,8 +4,6 @@ This is a full-stack web application built to manage users for a "Recipe Book" p
 
 The front end is a clean, single-page dashboard built with vanilla JavaScript and styled with Tailwind CSS.
 
-[Screenshot of the application dashboard could go here if you have one]
-
 ---
 
 ## Features
@@ -116,6 +114,7 @@ npm install
 
 The application exposes the following REST API endpoints:
 
+```
 | Method | Endpoint                 | Description                                    |
 | :----- | :----------------------- | :--------------------------------------------- |
 | `POST` | `/api/users/register`    | Registers a new user (used by the "Add" form). |
@@ -125,7 +124,7 @@ The application exposes the following REST API endpoints:
 | `DELETE`| `/api/users/:id`         | Deletes a user by their ID.                    |
 ```
 
-***
+---
 
 ### **2. Uploading Your Project to GitHub**
 
@@ -191,5 +190,3 @@ git push -u origin main
 ```
 
 Replace `your-username` and `your-repo-name` with your actual GitHub username and repository name. Run these three commands in your terminal.
-
-After the push is complete, refresh your repository page on GitHub. You will see all your files and the beautifully formatted `README.md` file. You're all set
